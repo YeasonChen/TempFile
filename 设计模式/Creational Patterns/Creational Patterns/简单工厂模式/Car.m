@@ -10,4 +10,36 @@
 
 @implementation Car
 
+- (void)running {}
+
+@end
+
+@implementation BMWCar
+
+- (instancetype)init {
+    if (self = [super init]) {
+        self.typeName = @"BMW";
+    }
+    return self;
+}
+
+- (void)running {
+    [self.RoadCondition Drive:self.typeName];
+}
+
+@end
+
+@implementation FORDCar
+
+- (instancetype)init {
+    if (self = [super init]) {
+        self.typeName = @"FORD";
+    }
+    return self;
+}
+
+- (void)running {
+    [self.RoadCondition Drive:self.typeName];
+}
+
 @end

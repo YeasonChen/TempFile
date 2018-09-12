@@ -7,12 +7,24 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Road.h"
 
 @interface Car : NSObject
 
-@property (nonatomic, copy) NSString *SteeringWheel;
-@property (nonatomic, copy) NSString *Wheel;
-@property (nonatomic, copy) NSString *Engine;
-@property (nonatomic, copy) NSString *AutoMachine;
+@property (nonatomic, copy) NSString *typeName;
+@property (nonatomic, strong) id<Drive> RoadCondition;
+
+- (void)running;
 
 @end
+
+@interface BMWCar : Car
+
+
+@end
+
+@interface FORDCar : Car
+
+@end
+
+

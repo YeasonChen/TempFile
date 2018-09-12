@@ -9,12 +9,25 @@
 /* Begin PBXBuildFile section */
 		6B338A912140B8650070811A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B338A902140B8650070811A /* main.m */; };
 		6B338A992140FF100070811A /* Shape.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B338A982140FF100070811A /* Shape.m */; };
+		6B5EBE572148B1FA00B19E04 /* ComponentAbstruct.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5EBE562148B1FA00B19E04 /* ComponentAbstruct.m */; };
+		6B5EBE5A2148BB4F00B19E04 /* YSraw.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5EBE592148BB4F00B19E04 /* YSraw.m */; };
+		6B5EBE5D2148BB6800B19E04 /* YSraw+Ct.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5EBE5C2148BB6800B19E04 /* YSraw+Ct.m */; };
+		6B5EBE602148C66000B19E04 /* Fade.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5EBE5F2148C66000B19E04 /* Fade.m */; };
+		6B5EBE632148C6E700B19E04 /* SubSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5EBE622148C6E700B19E04 /* SubSystem.m */; };
+		6B5EBE662148EA6000B19E04 /* Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5EBE652148EA6000B19E04 /* Custom.m */; };
+		6B5EBE692148EC5400B19E04 /* BuyerClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5EBE682148EC5400B19E04 /* BuyerClass.m */; };
+		6B5EBE6C2149031000B19E04 /* IgoChessman.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5EBE6B2149031000B19E04 /* IgoChessman.m */; };
+		6B5EBE6F2149038000B19E04 /* ChessmanFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5EBE6E2149038000B19E04 /* ChessmanFactory.m */; };
 		6BE0AB3021410FA100ECA83E /* ShapeFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BE0AB2F21410FA100ECA83E /* ShapeFactory.m */; };
 		6BE0AB68214666A200ECA83E /* Clothes.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BE0AB67214666A200ECA83E /* Clothes.m */; };
 		6BE0AB6B214666BC00ECA83E /* Shoes.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BE0AB6A214666BC00ECA83E /* Shoes.m */; };
 		6BE0AB6E214666DE00ECA83E /* BrandFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BE0AB6D214666DE00ECA83E /* BrandFactory.m */; };
 		6BE0AB71214767F100ECA83E /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BE0AB70214767F100ECA83E /* Car.m */; };
 		6BE0AB74214768E200ECA83E /* CarBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BE0AB73214768E200ECA83E /* CarBuilder.m */; };
+		6BE0AB7721479F4F00ECA83E /* Library.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BE0AB7621479F4F00ECA83E /* Library.m */; };
+		6BE0AB7A2147A00A00ECA83E /* Adapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BE0AB792147A00A00ECA83E /* Adapter.m */; };
+		6BE0AB7D2147B3FB00ECA83E /* Brush.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BE0AB7C2147B3FB00ECA83E /* Brush.m */; };
+		6BE0AB802147B9EF00ECA83E /* Road.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BE0AB7F2147B9EF00ECA83E /* Road.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +47,24 @@
 		6B338A902140B8650070811A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6B338A972140FF100070811A /* Shape.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Shape.h; sourceTree = "<group>"; };
 		6B338A982140FF100070811A /* Shape.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Shape.m; sourceTree = "<group>"; };
+		6B5EBE552148B1FA00B19E04 /* ComponentAbstruct.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ComponentAbstruct.h; sourceTree = "<group>"; };
+		6B5EBE562148B1FA00B19E04 /* ComponentAbstruct.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComponentAbstruct.m; sourceTree = "<group>"; };
+		6B5EBE582148BB4F00B19E04 /* YSraw.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YSraw.h; sourceTree = "<group>"; };
+		6B5EBE592148BB4F00B19E04 /* YSraw.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YSraw.m; sourceTree = "<group>"; };
+		6B5EBE5B2148BB6800B19E04 /* YSraw+Ct.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YSraw+Ct.h"; sourceTree = "<group>"; };
+		6B5EBE5C2148BB6800B19E04 /* YSraw+Ct.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "YSraw+Ct.m"; sourceTree = "<group>"; };
+		6B5EBE5E2148C66000B19E04 /* Fade.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fade.h; sourceTree = "<group>"; };
+		6B5EBE5F2148C66000B19E04 /* Fade.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fade.m; sourceTree = "<group>"; };
+		6B5EBE612148C6E700B19E04 /* SubSystem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubSystem.h; sourceTree = "<group>"; };
+		6B5EBE622148C6E700B19E04 /* SubSystem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubSystem.m; sourceTree = "<group>"; };
+		6B5EBE642148EA6000B19E04 /* Custom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Custom.h; sourceTree = "<group>"; };
+		6B5EBE652148EA6000B19E04 /* Custom.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Custom.m; sourceTree = "<group>"; };
+		6B5EBE672148EC5400B19E04 /* BuyerClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BuyerClass.h; sourceTree = "<group>"; };
+		6B5EBE682148EC5400B19E04 /* BuyerClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuyerClass.m; sourceTree = "<group>"; };
+		6B5EBE6A2149031000B19E04 /* IgoChessman.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IgoChessman.h; sourceTree = "<group>"; };
+		6B5EBE6B2149031000B19E04 /* IgoChessman.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IgoChessman.m; sourceTree = "<group>"; };
+		6B5EBE6D2149038000B19E04 /* ChessmanFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChessmanFactory.h; sourceTree = "<group>"; };
+		6B5EBE6E2149038000B19E04 /* ChessmanFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChessmanFactory.m; sourceTree = "<group>"; };
 		6BE0AB2E21410FA100ECA83E /* ShapeFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShapeFactory.h; sourceTree = "<group>"; };
 		6BE0AB2F21410FA100ECA83E /* ShapeFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShapeFactory.m; sourceTree = "<group>"; };
 		6BE0AB66214666A200ECA83E /* Clothes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Clothes.h; sourceTree = "<group>"; };
@@ -46,6 +77,14 @@
 		6BE0AB70214767F100ECA83E /* Car.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
 		6BE0AB72214768E200ECA83E /* CarBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarBuilder.h; sourceTree = "<group>"; };
 		6BE0AB73214768E200ECA83E /* CarBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarBuilder.m; sourceTree = "<group>"; };
+		6BE0AB7521479F4F00ECA83E /* Library.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Library.h; sourceTree = "<group>"; };
+		6BE0AB7621479F4F00ECA83E /* Library.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Library.m; sourceTree = "<group>"; };
+		6BE0AB782147A00A00ECA83E /* Adapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Adapter.h; sourceTree = "<group>"; };
+		6BE0AB792147A00A00ECA83E /* Adapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Adapter.m; sourceTree = "<group>"; };
+		6BE0AB7B2147B3FB00ECA83E /* Brush.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Brush.h; sourceTree = "<group>"; };
+		6BE0AB7C2147B3FB00ECA83E /* Brush.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Brush.m; sourceTree = "<group>"; };
+		6BE0AB7E2147B9EF00ECA83E /* Road.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Road.h; sourceTree = "<group>"; };
+		6BE0AB7F2147B9EF00ECA83E /* Road.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Road.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +138,34 @@
 				6BE0AB6D214666DE00ECA83E /* BrandFactory.m */,
 				6BE0AB6F214767F100ECA83E /* Car.h */,
 				6BE0AB70214767F100ECA83E /* Car.m */,
+				6BE0AB7E2147B9EF00ECA83E /* Road.h */,
+				6BE0AB7F2147B9EF00ECA83E /* Road.m */,
 				6BE0AB72214768E200ECA83E /* CarBuilder.h */,
 				6BE0AB73214768E200ECA83E /* CarBuilder.m */,
+				6BE0AB7521479F4F00ECA83E /* Library.h */,
+				6BE0AB7621479F4F00ECA83E /* Library.m */,
+				6BE0AB782147A00A00ECA83E /* Adapter.h */,
+				6BE0AB792147A00A00ECA83E /* Adapter.m */,
+				6BE0AB7B2147B3FB00ECA83E /* Brush.h */,
+				6BE0AB7C2147B3FB00ECA83E /* Brush.m */,
+				6B5EBE552148B1FA00B19E04 /* ComponentAbstruct.h */,
+				6B5EBE562148B1FA00B19E04 /* ComponentAbstruct.m */,
+				6B5EBE582148BB4F00B19E04 /* YSraw.h */,
+				6B5EBE592148BB4F00B19E04 /* YSraw.m */,
+				6B5EBE5B2148BB6800B19E04 /* YSraw+Ct.h */,
+				6B5EBE5C2148BB6800B19E04 /* YSraw+Ct.m */,
+				6B5EBE5E2148C66000B19E04 /* Fade.h */,
+				6B5EBE5F2148C66000B19E04 /* Fade.m */,
+				6B5EBE612148C6E700B19E04 /* SubSystem.h */,
+				6B5EBE622148C6E700B19E04 /* SubSystem.m */,
+				6B5EBE642148EA6000B19E04 /* Custom.h */,
+				6B5EBE652148EA6000B19E04 /* Custom.m */,
+				6B5EBE672148EC5400B19E04 /* BuyerClass.h */,
+				6B5EBE682148EC5400B19E04 /* BuyerClass.m */,
+				6B5EBE6A2149031000B19E04 /* IgoChessman.h */,
+				6B5EBE6B2149031000B19E04 /* IgoChessman.m */,
+				6B5EBE6D2149038000B19E04 /* ChessmanFactory.h */,
+				6B5EBE6E2149038000B19E04 /* ChessmanFactory.m */,
 			);
 			path = "简单工厂模式";
 			sourceTree = "<group>";
@@ -161,14 +226,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B5EBE5D2148BB6800B19E04 /* YSraw+Ct.m in Sources */,
+				6B5EBE602148C66000B19E04 /* Fade.m in Sources */,
+				6BE0AB7721479F4F00ECA83E /* Library.m in Sources */,
 				6BE0AB6B214666BC00ECA83E /* Shoes.m in Sources */,
+				6B5EBE5A2148BB4F00B19E04 /* YSraw.m in Sources */,
+				6B5EBE6F2149038000B19E04 /* ChessmanFactory.m in Sources */,
 				6B338A912140B8650070811A /* main.m in Sources */,
 				6BE0AB6E214666DE00ECA83E /* BrandFactory.m in Sources */,
+				6BE0AB7D2147B3FB00ECA83E /* Brush.m in Sources */,
 				6BE0AB3021410FA100ECA83E /* ShapeFactory.m in Sources */,
+				6B5EBE6C2149031000B19E04 /* IgoChessman.m in Sources */,
+				6B5EBE632148C6E700B19E04 /* SubSystem.m in Sources */,
+				6BE0AB7A2147A00A00ECA83E /* Adapter.m in Sources */,
+				6BE0AB802147B9EF00ECA83E /* Road.m in Sources */,
 				6BE0AB74214768E200ECA83E /* CarBuilder.m in Sources */,
 				6BE0AB71214767F100ECA83E /* Car.m in Sources */,
 				6BE0AB68214666A200ECA83E /* Clothes.m in Sources */,
+				6B5EBE692148EC5400B19E04 /* BuyerClass.m in Sources */,
 				6B338A992140FF100070811A /* Shape.m in Sources */,
+				6B5EBE662148EA6000B19E04 /* Custom.m in Sources */,
+				6B5EBE572148B1FA00B19E04 /* ComponentAbstruct.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
